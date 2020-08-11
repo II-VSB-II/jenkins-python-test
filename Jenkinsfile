@@ -1,5 +1,7 @@
 node('*') {
     wrap([$class: 'MesosSingleUseSlave']) {
-        echo "Testng"
+        echo "Starting"
+        sleep 5m
+        echo "Finished.."
     }
 }
