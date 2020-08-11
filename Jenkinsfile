@@ -1,4 +1,4 @@
-node('mylabel') {
+node('*') {
     wrap([$class: 'MesosSingleUseSlave']) {
         echo "Testng"
     }
