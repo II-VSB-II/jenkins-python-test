@@ -1,6 +1,6 @@
-node('slave_public') {
-    wrap([$class: 'MesosSingleUseSlave']) {
-        echo "Starting"
-        
-    }
+node('mess') {
+  stage("Build") {
+    checkout scm
+    echo "heloooo"
+  }
 }
