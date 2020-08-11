@@ -1,4 +1,4 @@
-import pytest
+import pytest, os
 from click.testing import CliRunner
 
 from irisvmpy import iris
